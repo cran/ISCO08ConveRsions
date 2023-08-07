@@ -6,7 +6,7 @@
 \arguments{
   \item{isco08}{ISCO-08 code, given as string with four digits}
 }
-\details{Conversions follow the overview table of Harry Ganzeboom.}
+\details{Conversions follow the overview table of Harry Ganzeboom. As the last revision date of this table is earlier than the revision date of the SPSS syntax modules, the function `isco08toisei08()` is preferable.}
 \value{Integer value of corresponding ISEI-08 score}
 \references{
 <http://www.harryganzeboom.nl/isco08/isco08_with_isei.pdf>
